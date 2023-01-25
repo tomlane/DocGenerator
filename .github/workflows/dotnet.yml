@@ -32,7 +32,7 @@ jobs:
       with:
           path: |
             docgenerator.1.0.0.nupkg
-            sbom.json
+            bom.json
           name: DocGenerator
           if-no-files-found: error
           retention-days: 5
